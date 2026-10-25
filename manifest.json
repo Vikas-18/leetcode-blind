@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Blind",
+  "version": "1.1.0",
+  "description": "Hide LeetCode difficulty labels and solve problems without bias.",
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

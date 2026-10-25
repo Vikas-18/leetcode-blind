@@ -1,0 +1,9 @@
+/* Hide difficulty badges on individual problem pages */
+[data-e2e-locator="question-difficulty"] {
+    visibility: hidden !important;
+}
+
+/* Hide difficulty labels in the problem listing */
+a[data-e2e-difficulty] p {
+    visibility: hidden !important;
+}
