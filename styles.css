@@ -1,5 +1,8 @@
 /* Hide difficulty badges on individual problem pages */
-[data-e2e-locator="question-difficulty"] {
+[data-e2e-locator="question-difficulty"],
+.text-difficulty-easy,
+.text-difficulty-medium,
+.text-difficulty-hard {
     visibility: hidden !important;
 }
 
